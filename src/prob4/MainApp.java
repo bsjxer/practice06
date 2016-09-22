@@ -9,9 +9,9 @@ public class MainApp {
 			stack.push("World");
 			stack.push("!!!");
 			stack.push("java");
-			stack.push(".");
+			stack.push(".");	
 
-			while (!stack.isEmpty()) {
+			while (stack.isEmpty()==false) {
 				System.out.println(stack.pop());
 			}
 
